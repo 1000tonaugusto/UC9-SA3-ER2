@@ -1,23 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: fontInfo;
-    src: url(../src/assets/fonts/Telex-Regular.ttf) format('truetype');
+    src: url(../../../assets/fonts/Telex-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;  
   }
   
   @font-face {
     font-family: fontEmail;
-    src: url(../src/assets/fonts/ShareTech-Regular.ttf);
+    src: url(../../../assets/fonts/ShareTech-Regular.ttf);
   }
   
   @font-face {
     font-family: fontSecao;
-    src: url(../src/assets/fonts/SigmarOne-Regular.ttf);
+    src: url(../../../assets/fonts/SigmarOne-Regular.ttf);
   }
   
           body {
             height: 197.5rem;
+            height: auto;
             background: radial-gradient(38.71% 136.09% at 50.71% 0%, rgba(88, 173, 215, 0.8) 0%, rgba(46, 48, 47, 0.8) 90.36%);
           }
           
@@ -96,6 +96,11 @@
             border: transparent;
             font-family: fontInfo;
           }
+
+          #tituloItem {
+            font-family: fontEmail;
+            color:#1b1b1b;
+        }
           
           @media (min-width: 768px) {
             .bd-placeholder-img-lg {
@@ -107,7 +112,21 @@
             display:none;
           }
 
-          #tituloItem, .textoItem {
-            font-family: fontEmail;
-            color:#1b1b1b;
-        }
+.imagemProduto {
+    margin-top: 5%;
+}
+
+#quadroDescricao {
+    background-color: #CFCFCF;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 1%;
+    mix-blend-mode: initial;
+    border: 0px #000000;
+}
+
+
+#tituloitem {
+    font-family: fontEmail;
+    color:#1b1b1b;
+}
